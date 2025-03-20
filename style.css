@@ -83,7 +83,7 @@ nav ul li a:hover {
 .profile-page #profile {
   color: white;
   border: 1px solid rgb(69, 202, 255);
-  border-radius: 50px;
+  border-radius: 200px;
   background-color: rgb(69, 202, 255);
 }
 

@@ -12,38 +12,35 @@
   </head>
   <body>
     <div class="container">
-      <header class="timer-page">
+      <header class="home-page">
         <nav>
           <h3>Fast Solve</h3>
           <ul>
             <li><a href="../index.html" id="home">Home</a></li>
-            <li><a href="TimerPage.html" id="timer">Timer</a></li>
+            <li><a href="pages/TimerPage.html" id="timer">Timer</a></li>
             <li>
-              <a href="AlgorithmsPage.html" id="algorithms">Algorithms</a>
+              <a href="pages/AlgorithmsPage.html" id="algorithms">Algorithms</a>
             </li>
           </ul>
           <div class="user-profile">
-            <a href="ProfilePage.html" id="profile">
+            <a href="pages/ProfilePage.html" id="profile">
               <i class="fa-solid fa-user"></i>
             </a>
           </div>
         </nav>
       </header>
-      <div class="main" id="timer-mian">
-        <div class="scramble">
-          <h1>Scramble</h1>
-          <div class="scramble-display">
-            <h2 id="scramble-display">R U R' U'</h2>
-          </div>
+      <div class="main" id="home-main">
+        <h1>How to solve</h1>
+        <div class="content" id="tutorial">
+          <img src="../img/2X2Solve.png" />
+          <a href="tutorial/2x2Tutorial.html">2x2 Cube</a>
         </div>
-        <div class="timer">
-          <h1>Timer</h1>
-          <div class="timer-display">
-            <h2 id="timer-display">00:00.00</h2>
+        <div class="content" id="tutorial">
+            <img src="../img/solve.png" />
+            <a href="tutorial/3x3Tutorial.html">3x3 Cube</a>
           </div>
-        </div>
       </div>
     </div>
-    <script src="../index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
