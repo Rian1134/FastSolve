@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(34, 176, 232),
+    rgb(62, 193, 245),
+    rgb(174, 232, 255)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.user-profile a {
+  color: grey;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.user-profile a :hover {
+  color: #000;
+  border-bottom: 3px solid grey;
+}
+
+nav {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: white;
+  border: 10px solid rgb(158, 158, 158);
+  border-radius: 10px;
+  background-color: rgb(158, 158, 158);
+}
+
+.home-page #home {
+  color: white;
+  border: 10px solid rgb(69, 202, 255);
+  border-radius: 10px;
+  background-color: rgb(69, 202, 255);
+}
+
+.timer-page #timer {
+  color: white;
+  border: 10px solid rgb(69, 202, 255);
+  border-radius: 10px;
+  background-color: rgb(69, 202, 255);
+}
+
+.algorithms-page #algorithms {
+  color: white;
+  border: 10px solid rgb(69, 202, 255);
+  border-radius: 10px;
+  background-color: rgb(69, 202, 255);
+}
+
+.profile-page #profile {
+  color: white;
+  border: 1px solid rgb(69, 202, 255);
+  border-radius: 50px;
+  background-color: rgb(69, 202, 255);
+}
+
+.main {
+  margin: 10px 15px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.main img {
+  padding: 5px 20px;
+  width: 70px;
+  height: 70px;
+}
+
+.content {
+  border-radius: 10px;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  background-color: rgb(34, 176, 232);
+  justify-content: center;
+  align-content: center;
+}
+
+.content:hover {
+  background-color: rgb(2, 82, 255);
+}
+
+.content a {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: 50px;
+  align-self: center;
+}
+
+.content a:hover {
+  border-bottom: 5px solid white;
+}
+
+.dropdown {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  width: 500px;
+  background-color: rgb(102, 214, 255);
+  border: 1px solid black;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.dropdown-content {
+  width: 500px;
+  border: 2px solid rgb(170, 232, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.dropdown-content a {
+  justify-content: center;
+  align-content: center;
+}
+
+.dropdown-content:hover {
+  background: rgb(0, 80, 253);
+}
+
+#tutorial #tutorial-dropdown {
+  display: none;
+}
+
+#tutorial:hover #tutorial-dropdown {
+  display: flex;
+}
+
+#algorithms #algorithms-dropdown {
+  display: none;
+}
+
+#algorithms:hover #algorithms-dropdown {
+  display: flex;
+}
+
+.scramble {
+  display: flex;
+  font-size: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 20px 50px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.timer {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.timer-display {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}

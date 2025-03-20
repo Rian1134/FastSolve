@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myWebsite</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/464f9fe2ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="home-page">
+        <nav>
+          <h3>Fast Solve</h3>
+          <ul>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="pages/TimerPage.html" id="timer">Timer</a></li>
+            <li>
+              <a href="pages/AlgorithmsPage.html" id="algorithms">Algorithms</a>
+            </li>
+          </ul>
+          <div class="user-profile">
+            <a href="pages/ProfilePage.html" id="profile">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <div class="main" id="home-main">
+        <h1>Welcome to Fast Solve</h1>
+        <div class="content" id="tutorial">
+          <img src="img/solve.png" />
+          <a href="pages/TutorialPage.html">How to solve a cube</a>
+          <div class="dropdown" id="tutorial-dropdown">
+            <div class="dropdown-content">
+              <img src="img/2X2Solve.png" /><a
+                href="pages/tutorial/2x2Tutorial.html"
+                >2X2 Cube</a
+              >
+            </div>
+            <div class="dropdown-content">
+              <img src="img/solve.png" /><a
+                href="pages/tutorial/3x3Tutorial.html"
+                >3X3 Cube</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="content" id="algorithms">
+          <img src="img/PLL/PLL.png" />
+          <a href="pages/AlgorithmsPage.html">Algorithms</a>
+          <div class="dropdown" id="algorithms-dropdown">
+            <div class="dropdown-content">
+              <img src="img/OLL/OLL.png" /><a
+                href="pages/algorithms/3X3/OLL.html"
+                >OLL</a
+              >
+            </div>
+            <div class="dropdown-content">
+              <img src="img/PLL/PLL.png" /><a
+                href="pages/algorithms/3X3/PLL.html"
+                >PLL</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="content" id="timer">
+          <img src="img/Timer.png" />
+          <a href="pages/TimerPage.html">Cube timer</a>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
