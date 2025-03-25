@@ -171,6 +171,19 @@ nav ul li a:hover {
   display: flex;
 }
 
+#coming-soon {
+  display: flex;
+  font-size: 50px;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  color: rgb(105, 105, 105);
+  margin: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 .scramble {
   display: flex;
   font-size: 10px;
@@ -183,6 +196,11 @@ nav ul li a:hover {
   background-color: white;
   border: 5px solid black;
   border-radius: 5px;
+}
+
+.scramble-display {
+  font-size: 15px;
+  margin: 5px;
 }
 
 .timer {

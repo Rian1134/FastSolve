@@ -7,3 +7,5 @@ let isRunning = false;
 function start(){
     
 }
+
+console.log("Hello World");
