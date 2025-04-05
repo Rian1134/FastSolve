@@ -17,7 +17,7 @@
           <h3>Fast Solve</h3>
           <ul>
             <li><a href="../index.html" id="home">Home</a></li>
-            <li><a href="TimerPage.html" id="timer">Timer</a></li>
+            <li><a href="TimerPage.html" class="active" id="timer">Timer</a></li>
             <li>
               <a href="AlgorithmsPage.html" id="algorithms">Algorithms</a>
             </li>
@@ -33,14 +33,21 @@
         <div class="scramble">
           <h1>Scramble</h1>
           <div class="scramble-display">
-            <h2 id="scramble-display">R U R' U'</h2>
+            <h2 id="scramble-display">R U R' U' R' F R2 U' R' U' R U R' F'</h2>
           </div>
         </div>
+
         <div class="timer">
           <h1>Timer</h1>
           <div class="timer-display">
             <h2 id="timer-display">00:00.00</h2>
           </div>
+        </div>
+        
+        <div id="penalty">
+          <button id ="+2" onclick="p2()">+2</button>
+          <button id="dnf" onclick="dnf()">DNF</button>
+          <button id="remove" onclick="remove()"><i class="fa-solid fa-trash"></i></button>
         </div>
       </div>
     </div>
