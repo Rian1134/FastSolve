@@ -20,7 +20,6 @@ function stop(){
         clearInterval(timer);
         elapsedTime = Date.now()  - startTime;
         isRunning = false;
-        isReset = true;
         penalty.style.visibility ="visible";
     }
 }
